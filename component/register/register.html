@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/assets/css/login.css">
+</head>
+<body>
+    <div class="form"  action="" >
+        <h2>Đăng ký</h2>
+        <form  method="post" action="" onsubmit="return validateForm()">
+        <div>
+            <input type="text" name="username" placeholder="Nhập tên đăng ký" />
+        </div>
+        <div>
+            <input type="text" name="email" placeholder="Nhập email" />
+        </div>
+        <div>
+            <input type="password" name="password" placeholder="Nhập mật khẩu" />
+        </div>
+        <div>
+            <input type="cf_password" name="cf_password" placeholder="Nhập lại mật khẩu" />
+        </div>
+        <div>
+            <input type="submit" name="register" id="register" class="btn" value="Register"/>
+        </div>
+        <p>Already have an account? <a href="/component/login/login.html">Sign in</a></p>
+        </form>
+    </div>
+        <script src="register.js" ></script>
+</body>
+</html>

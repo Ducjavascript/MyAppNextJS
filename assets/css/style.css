@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: thistle; */
+    width: auto;
+    height: auto;
+   
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clear{
+    clear: both;
+}
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 20px 100px 30px 30px ;
+    height: 46px;
+    z-index: 1;
+    width: 100%;
+}
+.header img{
+    padding: 0px 20px ;
+    width: 120px;
+    height: 50px;
+    float: left;
+    margin-right: 500px;
+}
+#nav{
+    display: inline-block;
+}
+#nav > li{
+    display: inline-block;
+}
+#nav li{
+    position: relative;
+}
+#nav > li > a{
+    color:black;
+    text-transform: uppercase;
+}
+#nav li a{
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+}
+#nav > li:hover > a{
+    color: rgb(245, 16, 176);
+    background-color: rgb(38, 17, 224);
+}
+.header .search-btn{
+    float: right;
+    padding: 0 21px;
+}
+.header .search-btn:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+.header .search-icon{
+    color: black;
+    font-size: 20px;
+    line-height: 46px;
+}
+.slider{
+    background-image: url('/assets/img/cafe.jpg');
+    background-size: 900;
+    width: 100%;
+    height: auto;
+    padding: 100px 126px;
+    float: left;
+}
+.slider #left{
+    width: 50%;
+    text-align: center;
+}
+.slider #right{
+    margin-right: 50px;
+    float: right;
+    border-radius: 5%;
+}
+.slider #right img{
+    border-radius: 5%;
+}
+ #trademark{
+    padding: 30px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100% ;
+    float: left;    
+}
+ #trademark img{
+    padding: 0px 0px 0px 107px;
+}
+@media only screen and (max-width: 600px) {
+   .content #list-coffe{
+    padding-top: 5px;
+    width: 100%;
+    text-align: justify;
+    padding: 13px 10px;
+    border: double;
+    border-radius: 5px;
+    border-color: red;
+    margin: 0 auto;
+    margin-left: 160px;
+   }
+
+}
+@media only screen and (min-width: 1200px) {
+    .content #list-coffe{
+        padding-top: 5px;
+        float: left;
+        width: 20%;
+        text-align: justify;
+        padding: 23px 20px;
+        border: double;
+        border-radius: 20px;
+        border-color: red;
+        margin: 5px;
+        /* margin-top: 30px; */
+        margin-left: 66px;
+    }
+}
+.content h4{
+    padding-top: 100px;
+    margin-left: 100px;
+}
+.content #list-coffe h5{
+    padding: 10px 10px;
+}
+.content1{
+    width: 100%;
+    height: auto;
+}
+.content1 #left{
+    float: left;
+    padding: 100px 126px;
+    border-radius: 15px;
+}
+.content1 #left img{
+    border-radius: 10%;
+    box-shadow: 3px 7px rgb(205, 216, 202) ;
+}
+.content1 #right{
+    float: left;
+    padding: 200px;
+}
+.content1 #right p{
+    padding: 20px 30px 30px 0px;
+}
+.content1 #right h4{
+    padding: 10px;
+}
+.content2 {
+    display: flex;
+    width: 100%; 
+    padding: 20px 126px;
+    height: auto;
+    position: relative;
+}
+.content2 #left{
+    width: 50%;
+}
+.content2 #left img{
+    border-radius: 10%;
+    box-shadow: 3px 7px rgb(219, 230, 216) ;
+}
+.content2 #right{
+    padding: 10px 0px 10px 0px;
+    width: 50%;
+}
+.content2 #right h4{
+    padding:30px 0 20px 0px;
+}
+.btn{
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: rgb(16, 163, 41);
+    border: rgb(16, 163, 41);
+    color: white;
+    padding: 20px 30px;
+    margin-top: 100px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+.mid{
+    width: auto;
+    height: auto;   
+    position: absolute;
+    left: 30%;
+    bottom: 10%;
+    border-radius: 10px;
+    background-color: white;
+    -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC); 
+}
+.mid h2{
+    background-color: rgb(15, 171, 192);
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+.mid h3{
+    padding: 10px 10px 0 0;
+}
+.mid p{
+    opacity: 0.7;
+    padding: 10px 10px 0 0;
+}
+.slogan{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.slogan #top-right{
+    padding: 100px 0 0 120px;
+    width: 50%;
+}
+.slogan #top-right h3{
+    padding-bottom: 20px;
+}
+.slogan #top-left{
+    padding: 0 0 0 300px;
+    width: 50%;
+}
+.footer{
+    margin-top: 50px;
+    display: flex;
+}
+.footer img{
+    padding: 0px 20px ;
+    width: 120px;
+    height: 50px;
+    margin-left: 50px;
+}
+.footer p a{
+    text-decoration: none;
+    color:crimson;
+}
+.footer h3{
+    text-transform: uppercase;
+    padding: 0 0 0 150px;
+}
+.slogan a{
+    text-decoration: none
+}
